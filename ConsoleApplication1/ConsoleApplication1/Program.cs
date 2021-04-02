@@ -12,6 +12,13 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("hola mundo!");
             Console.ReadLine();
+
+            Persona p = new Persona();
+            p.setnombre("Edu");
+            p.setedad(24);
+            p.presentar();
+            Console.ReadLine();
+
         }
     }
 }
